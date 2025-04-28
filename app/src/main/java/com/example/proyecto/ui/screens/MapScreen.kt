@@ -326,5 +326,5 @@ fun generateRandomLatLng(centerLat: Double, centerLng: Double, radiusInMeters: D
     return LatLng(randomLat, randomLng)
 }
 
-    // Modelo de datos para los marcadores
-    data class MarkerData(val position: LatLng, val title: String)
+// Modelo de datos para los marcadores
+data class MarkerData(val position: LatLng, val title: String)
