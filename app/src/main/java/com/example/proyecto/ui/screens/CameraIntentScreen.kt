@@ -91,7 +91,7 @@ fun CameraIntentScreen(navController: NavController) {
             }
         }
     )
-    SharedScaffold(selectedTab = 2, onTabSelected = onTabSelected, navController = navController) { }
+    SharedScaffold(selectedTab = null, navController = navController) { }
     // UI
     Column(
         modifier = Modifier

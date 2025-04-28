@@ -52,13 +52,16 @@ import androidx.compose.ui.graphics.Brush
 import coil3.compose.rememberAsyncImagePainter
 import com.example.proyecto.navigation.NavigationStack
 import com.example.proyecto.navigation.Screen
+import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.Surface
+import com.example.proyecto.navigation.NavigationStack
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             MaterialTheme {
-                // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
@@ -175,15 +178,4 @@ fun ProfileSetupScreen(navController: NavController) {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
 
